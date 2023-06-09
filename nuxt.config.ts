@@ -18,15 +18,21 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    vite: {
+        server: {
+            fs: {
+                // Allow serving files from one level up to the project root
+                allow: ['..'],
+            },
+        }
+
+    },
+
     modules: [
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/supabase'
+        '@nuxtjs/supabase',
+
     ],
 
 
-
-
-
 })
-
-

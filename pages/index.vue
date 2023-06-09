@@ -6,10 +6,10 @@
 
 <script setup>
 
-// definePageMeta({
-//   middleware: ["auth"]
-//   // or middleware: 'auth'
-// })
+definePageMeta({
+  middleware: ["auth"]
+  // or middleware: 'auth'
+})
 
 </script>
 
