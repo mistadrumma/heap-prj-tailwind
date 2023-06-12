@@ -60,6 +60,7 @@ const handleLoginGit = async () => {
   } finally {
     loading.value = false
   }
+  await navigateTo('/');
 }
 
 const signUpWithEmail = async () => {
@@ -82,6 +83,8 @@ const signUpWithEmail = async () => {
 
   }
 }
+
+
 
 
 </script>

@@ -1,12 +1,10 @@
-<script setup>
-</script>
 <template>
-  <Signupform>
-  </Signupform>
+
 </template>
+
 <script>
 export default {
-  name: "signup"
+  name: "settings"
 }
 </script>
 

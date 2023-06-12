@@ -1,10 +1,15 @@
 <template>
-<h1>HI</h1>
+  <div>
+    <Navbar />
+    <Sidebar />
+    <slot />
+  </div>
+
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "default"
 }
 </script>
 
